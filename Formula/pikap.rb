@@ -1,9 +1,9 @@
 class Pikap < Formula
   desc "Spotify remote for the terminal: album art, synced lyrics, a turning record"
   homepage "https://github.com/ozangencer/pikap"
-  url "https://github.com/ozangencer/pikap/releases/download/v0.1.2/pikap-v0.1.2-macos.tar.gz"
-  version "0.1.2"
-  sha256 "fcc4a31a4be6be71db2c8dbfb8358caa75b18c90f5d8d13d4a11cc64cb8166b4"
+  url "https://github.com/ozangencer/pikap/releases/download/v0.1.4/pikap-v0.1.4-macos.tar.gz"
+  version "0.1.4"
+  sha256 "a98728395c223ad38e6d3d890ce438edb80ddde23f6644e59e9ecd20ff2b4f32"
   license "MIT"
 
   depends_on :macos
