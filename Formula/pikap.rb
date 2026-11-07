@@ -1,9 +1,9 @@
 class Pikap < Formula
-  desc "Spotify remote for the terminal: album art, synced lyrics, a turning record"
+  desc "Terminal remote for Spotify and YouTube Music: cover art, synced lyrics"
   homepage "https://github.com/ozangencer/pikap"
-  url "https://github.com/ozangencer/pikap/releases/download/v0.1.5/pikap-v0.1.5-macos.tar.gz"
-  version "0.1.5"
-  sha256 "83dd94b6764fdb5998a247f4b268e3d9ba74d176e7a47ae1252af5a355228410"
+  url "https://github.com/ozangencer/pikap/releases/download/v0.2.0/pikap-v0.2.0-macos.tar.gz"
+  version "0.2.0"
+  sha256 "09323bc8ed189421eb8c9136c92f592b06d9183726c2ac8e086fc0fa4aedc77b"
   license "MIT"
 
   depends_on :macos
@@ -14,7 +14,15 @@ class Pikap < Formula
 
   def caveats
     <<~EOS
-      Run `pikap auth` once: it walks you through connecting your Spotify account.
+      Spotify: run `pikap auth spotify` once; it walks you through connecting
+      your account.
+
+      YouTube Music works signed out and plays through mpv:
+        brew install mpv yt-dlp
+        pikap --backend ytmusic
+      To bring in your liked songs and playlists: `pikap auth ytmusic`
+
+      `g S` switches between the two while pikap runs.
     EOS
   end
 
