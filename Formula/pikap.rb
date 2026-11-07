@@ -1,9 +1,9 @@
 class Pikap < Formula
   desc "Terminal remote for Spotify and YouTube Music: cover art, synced lyrics"
   homepage "https://github.com/ozangencer/pikap"
-  url "https://github.com/ozangencer/pikap/releases/download/v0.2.0/pikap-v0.2.0-macos.tar.gz"
-  version "0.2.0"
-  sha256 "09323bc8ed189421eb8c9136c92f592b06d9183726c2ac8e086fc0fa4aedc77b"
+  url "https://github.com/ozangencer/pikap/releases/download/v0.2.1/pikap-v0.2.1-macos.tar.gz"
+  version "0.2.1"
+  sha256 "ce420aea74ccfad7ac7dd047b1a655f0d212695760bd41ddf897f501447afa44"
   license "MIT"
 
   depends_on :macos
